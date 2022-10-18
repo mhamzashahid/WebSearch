@@ -1,5 +1,5 @@
 
-import 'package:websearch/accounts_master_page/domain/entities/account.dart';
+import 'package:websearch/accounts/domain/entities/account.dart';
 
 abstract class AccountsRepository{
 
