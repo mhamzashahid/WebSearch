@@ -5,9 +5,9 @@ abstract class AccountsRepository{
 
   Future<List<Account>> fetchAccounts();
 
-  Future<List<Account>> searchAccounts();
+  Future<List<Account>> searchAccounts(String query);
 
-  Future<List<Account>> filterAccounts();
+  Future<List<Account>> filterAccounts(String key, String vlaue);
 
   Future<List<String>> fetchStateCodes();
 
